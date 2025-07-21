@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "KafkaRefresh", // The name of your Swift Package
     platforms: [
-        .iOS(.v15.0) // Or the minimum iOS version KafkaRefresh supports
+        .iOS(.v9) // Or the minimum iOS version KafkaRefresh supports
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
